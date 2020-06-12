@@ -4,10 +4,13 @@
     <title>Wello Ethan Test Sign Up1</title>
     <link rel="stylesheet" href="https://ethanmillard.github.io/wello-signup/styles.css" />
     <script>
-      alert('hello3');
+      alert('hello4');
+      
+      var params = (new URL(document.location)).searchParams;
+      var emailText = params.get('email');
       
       var email = document.getElementById('email');
-      email.value = 'test';
+      email.value = emailText;
       email.disabled = true;
     </script>
   </head>
