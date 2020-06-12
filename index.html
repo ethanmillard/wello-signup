@@ -4,7 +4,11 @@
     <title>Wello Ethan Test Sign Up1</title>
     <link rel="stylesheet" href="https://ethanmillard.github.io/wello-signup/styles.css" />
     <script>
-      alert('hello');
+      window.onload = () => {
+        var email = document.getElementById('email');
+        email.readOnly = true;
+        email.text = 'test'
+      }
     </script>
   </head>
   <body>
