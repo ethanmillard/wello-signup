@@ -1,0 +1,65 @@
+body {
+    background-color:white;
+}
+#api {
+margin: 0 auto;
+}
+#cancel { 
+    display: none;
+}
+.intro {
+display: none;
+}
+.helpLink {
+    display: none;
+}
+label {
+display: none!important;
+}
+img {
+display: block;
+margin: auto;
+height: 70px;
+}
+ul {
+padding: 0px;
+}
+.panel-body {
+margin: 0 auto;
+max-width: 380px;
+width: auto;
+padding: 15px;
+}
+#attributeList ul li 
+{
+list-style: none;
+margin: 1rem 0;
+}
+#attributeList input {
+width: 100%;
+border: 1px solid #f1f1f1;
+border-radius: 2rem;
+height: 45px;
+text-indent: 10px;
+font-size: 16px;
+}
+#attributeList input:focus {
+border: 2px solid #80a8df;
+}
+.verify button {
+margin: 1rem 0;
+}
+.verify input {
+margin: 1rem 0;
+}
+.verify div {
+margin: 1rem 0;
+}
+.buttons button {
+width: 100%;
+color: white;
+background-color: #91c84c;
+border-radius: 30px;
+border: none;
+height: 45px;
+}
