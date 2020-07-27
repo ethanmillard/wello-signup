@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>User details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: white;
+    }
+
+    #api {
+      margin: 0 auto;
+    }
+
+    .intro {
+      display: none;
+    }
+
+    .helpLink {
+      display: none;
+    }
+
+    label {
+      display: none !important;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      height: 70px;
+    }
+
+    ul {
+      padding: 0px;
+    }
+
+    .panel-body {
+      margin: 0 auto;
+      max-width: 375px;
+      width: auto;
+      padding: 15px;
+    }
+
+    .entry-item input {
+      width: 100%;
+      border: 1px solid #f1f1f1;
+      border-radius: 2rem;
+      height: 45px;
+      text-indent: 10px;
+      font-size: 16px;
+      box-sizing: border-box
+    }
+
+    .entry-item input:focus {
+      border: 2px solid #80a8df;
+    }
+
+    .buttons button {
+      width: 100%;
+      color: white;
+      background-color: #9cc22e;
+      border-radius: 2rem;
+      border: none;
+      height: 45px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="panel-body">
+    <img data-tenant-branding-logo="true" alt="Company Logo" />
+    <div id="api"></div> <!-- Leave this element empty because Azure AD B2C will insert content here. -->
+  </div>
+</body>
+
+</html>
