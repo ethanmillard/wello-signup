@@ -51,6 +51,7 @@ ul {
     height: 45px;
     text-indent: 10px;
     font-size: 16px;
+    box-sizing:border-box
 }
 
 #attributeList input:focus {
